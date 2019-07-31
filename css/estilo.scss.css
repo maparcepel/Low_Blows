@@ -1,0 +1,67 @@
+body#index{
+    background:  url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}       
+nav{
+    background: none;
+    
+}
+navbar{
+    align-items:left !important;
+}
+.navbar{
+    display:block;
+}
+nav ul{
+    width:100% !important;
+
+}
+nav ul li{
+}
+nav ul li a{
+    font-size: 1.1em;
+    color:white !important;
+}
+
+.navbar-toggler {
+    border-color:#cccccc !important;
+}
+.nav-link {
+    display: block;
+    padding: 0.2rem;
+}
+
+button:focus{
+    outline:none;
+}
+
+body{
+    font-family: 'Cairo', sans-serif, open sans, verdana, arial;
+}
+
+/*ABOUT*/
+
+#biografia{
+    color: black;
+}
+#biografia div{
+    height: 18em;
+}
+
+.row {
+  margin: 15px;
+}
+@media(max-width: 420px){
+    #ocultar{
+        display:none;
+    }
+}
+@media(max-width: 630px){
+    #texto{
+         padding:0px !important;
+    }
+    #biografia > div{
+       margin:0; 
+    }
+}

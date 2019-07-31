@@ -1,0 +1,282 @@
+
+
+
+/*M E N U*/
+
+nav{
+    background: none;
+    
+}
+navbar{
+    align-items:left !important;
+}
+
+nav ul{
+    width:100% !important;
+
+}
+nav ul li{
+}
+nav ul li a{
+    font-size: 1.1em;
+    color:white !important;
+}
+.navbar-toggler {
+    border-color:gray !important;
+}
+button:focus{
+    outline:none;
+}
+
+body{
+    font-family: 'Cairo', sans-serif, open sans, verdana, arial;
+}
+
+.navbar{
+    padding-left: 0 !important;
+    padding-bottom: 0 !important;
+}
+.nav-link {
+    display: block;
+    padding-top: 0.2rem !important;
+    padding-bottom: 0.2rem !important;
+}
+
+/*M U S I C*/
+
+#music{
+    height:100%;
+    background-color: black;
+    background-image:  url(../img/fondo3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}   
+.music {
+    color: #d9d9d9;
+}
+.music img{
+    width:200px;
+    height:200px;
+    margin-bottom: 15px;
+}
+.music .row{
+    padding:15px 0px 0px 0px;
+    border:#262626 solid 1px;
+    margin-top:20px;
+    background-color:rgba(0, 0, 0, 0.2)
+}
+.music a img{
+    width:35px;
+    height:35px;
+}
+.music a{
+    margin-right: 20px;
+}
+#music .navbar{
+    padding-left: 9px !important;
+    padding-bottom: 0 !important;
+}
+
+
+
+
+
+/*F O T O S*/
+
+#fotos{
+    background-color: black;
+    background-image: url(../img/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}   
+#fotos .navbar>img{
+    padding-left: 2px;
+}
+.gallery-block .container{
+    padding:0px 7px 0px 7px !important;
+}
+.gallery-block{
+  padding-bottom: 60px;
+  padding-top: 20px;
+}
+
+
+.gallery-block.compact-gallery .item{
+  padding:10px;
+  overflow: hidden;
+  margin-bottom: 0;
+  opacity: 1;
+}
+
+.gallery-block.compact-gallery .item .image{
+  transition: 1s ease;
+}
+
+@media (min-width: 576px) {
+  .gallery-block .zoom-on-hover:hover .image {
+    transform: scale(3);
+    opacity: 0.7; 
+  }
+}
+
+/*v i d e o s*/
+
+#videos {
+    background-color: black;
+    background-image: url(../img/fondo4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#videos .modal-dialog {
+      max-width: 800px;
+      margin: 110px auto;
+  }
+
+#videos .modal-body {
+  position:relative;
+  padding:0px;
+}
+#videos .close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
+
+
+
+#videos .item{
+  padding-top:20px;
+
+}
+
+#videos .item a{
+  color:#d9d9d9 !important;
+}
+#videos .item a:link{
+  text-decoration:none; 
+  color:#d9d9d9 !important;
+}
+#videos .item  h6{
+  margin:5px;
+}
+.zoom img{
+-webkit-transform:scale(1); /*Webkit: Scale down image to 0.8x original size*/
+-moz-transform:scale(1); /*Mozilla scale version*/
+-o-transform:scale(1); /*Opera scale version*/
+-webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
+-moz-transition-duration: 0.5s; /*Mozilla duration version*/
+-o-transition-duration: 0.5s; /*Opera duration version*/
+opacity: 1; /*initial opacity of images*/
+margin: 0 10px 5px 0; /*margin between images*/
+}
+ 
+.zoom img:hover{
+-webkit-transform:scale(1.1); /*Webkit: Scale up image to 1.2x original size*/
+-moz-transform:scale(1.1); /*Mozilla scale version*/
+-o-transform:scale(1.1); /*Opera scale version*/
+box-shadow:0px 0px 30px black; /*CSS3 shadow: 30px blurred shadow all around image*/
+-webkit-box-shadow:0px 0px 30px black; /*Safari shadow version*/
+-moz-box-shadow:0px 0px 30px black; /*Mozilla shadow version*/
+opacity: 1;
+}
+
+/*e v e n t o s*/
+
+#events{
+    /*height:100%;*/
+}
+#events body {
+    background-color: black;
+    background-image:  url(../img/fondo5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#events .arriba{
+    color:white;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #990033;
+}
+#events .centro{
+    color:black;
+    font-size: 2.3em;
+    text-align: center;
+    margin-bottom: 3px;
+     margin-top: 3px;
+     background-color: #e6e6e6;
+}
+#events .abajo{
+    color:white;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px ;
+    background-color: #990033;
+}
+
+#events .row {
+    color: #d9d9d9;
+    
+}
+#events .row a{
+  color:#d9d9d9 !important;
+}
+#events .row a:link{
+  text-decoration:underline; 
+  color:#d9d9d9 !important;
+}
+#events .relleno{
+ height: 400px;
+}
+
+/*C O N T A C T*/
+
+#contact{
+    height:100%;
+}
+#contact body {
+    height:100%;
+    background-color: black;
+    background-image:   url(../img/fondo6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+}
+#cont .relleno{
+ height: 400px;
+}
+#cont {
+    color: #d9d9d9;
+    
+}
+#cont a{
+  color:#d9d9d9 !important;
+}
+#cont a:link{
+  text-decoration:none; 
+  color:#d9d9d9 !important;
+}
+footer  {
+    align-self: flex-end;
+    position: relative;
+    bottom: 0;
+    color:#d9d9d9 !important;
+    flex: 0 0 auto;
+    background: rgba(0, 0, 0, 0.3);
+}
+footer a{
+  color:#d9d9d9 !important;
+}
+footer a:link{
+  text-decoration:none; 
+  color:#d9d9d9 !important;
+}
