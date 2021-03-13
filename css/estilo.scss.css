@@ -1,5 +1,7 @@
-body#index{
-    background:  url(../img/fondo.jpg);
+#index{
+    height:100%;
+    background-color: black;
+    background-image:  url(../img/fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }       
@@ -10,9 +12,7 @@ nav{
 navbar{
     align-items:left !important;
 }
-.navbar{
-    display:block;
-}
+
 nav ul{
     width:100% !important;
 
@@ -41,27 +41,15 @@ body{
 }
 
 /*ABOUT*/
+#creditos{
+    color: #8a8d7c;
+    font-size: 0.8em;
+}
 
 #biografia{
-    color: black;
+    color: #8a8d7c;
 }
 #biografia div{
     height: 18em;
 }
 
-.row {
-  margin: 15px;
-}
-@media(max-width: 420px){
-    #ocultar{
-        display:none;
-    }
-}
-@media(max-width: 630px){
-    #texto{
-         padding:0px !important;
-    }
-    #biografia > div{
-       margin:0; 
-    }
-}
