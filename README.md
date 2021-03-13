@@ -1,6 +1,6 @@
-**[Low Blows](http://binarysunsetestudio.com/lowblows)**
+**[LOW BLOWS](http://binarysunsetestudio.com/lowblows)**
 
-![App-delivery](http://binarysunsetestudio.com/ext_img/lowblows.PNG)
+![<img src="(http://binarysunsetestudio.com/ext_img/lowblows.PNG">](http://binarysunsetestudio.com/lowblows)
 
 Web desarrollada para el grupo musical Low Blows
 
