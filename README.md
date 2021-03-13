@@ -6,5 +6,5 @@ Web desarrollada para el grupo musical Low Blows
 
 **Herramientas utilizadas**
 
-Html, Bootstrap.
+Html, Bootstrap, Javascript.
 
